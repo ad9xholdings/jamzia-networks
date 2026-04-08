@@ -1,0 +1,57 @@
+{
+  "name": "@jamzia/web3",
+  "version": "1.0.0",
+  "description": "JamZia Networks™ Web3 Platform - Built on XRP Ledger. SkyCoins, WisdomPay, RiverShyre AR Gaming, and DAO Governance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "jamzia",
+    "web3",
+    "xrp",
+    "xrpl",
+    "cryptocurrency",
+    "blockchain",
+    "skycoins",
+    "skyivy",
+    "skylockr",
+    "wisdompay",
+    "rivershyre",
+    "ar",
+    "gaming",
+    "dao",
+    "governance",
+    "payments",
+    "defi"
+  ],
+  "author": "Ad9x Holdings, LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamzia/web3-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamzia/web3-platform/issues"
+  },
+  "homepage": "https://jamzia.io",
+  "dependencies": {
+    "xrpl-client": "^2.0.0",
+    "xrpl": "^2.0.0",
+    "crypto": "^1.0.1",
+    "ws": "^8.0.0",
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "jsdoc": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
