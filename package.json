@@ -1,0 +1,57 @@
+{
+  "name": "@jamzia/networks",
+  "version": "1.0.0",
+  "description": "JamZia Networks™ - Global Web3 Financial Infrastructure + Interactive AR Economy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "docs": "jsdoc -c jsdoc.json",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamzia/jamzia-networks.git"
+  },
+  "keywords": [
+    "jamzia",
+    "skycoins",
+    "skyivy",
+    "skylockr",
+    "wisdompay",
+    "rivershyre",
+    "xrpl",
+    "xrp",
+    "bitcoin",
+    "web3",
+    "defi",
+    "dao",
+    "ar",
+    "gaming",
+    "payments"
+  ],
+  "author": "Ad9x Holdings, LLC <info@jamzia.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamzia/jamzia-networks/issues"
+  },
+  "homepage": "https://jamzia.io",
+  "dependencies": {
+    "xrpl": "^2.14.0",
+    "xrpl-client": "^2.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "crypto-js": "^4.2.0",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0",
+    "nodemon": "^3.0.0",
+    "jsdoc": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
